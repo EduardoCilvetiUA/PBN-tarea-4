@@ -1,0 +1,15 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/laloc/Downloads/tarea4pbn'
+ 
+g++  -c main.cpp -o main.o
+ 
+g++  -fPIC -c rectangulo.cpp -o rectangulo.o
+ 
+g++  -fPIC -c cuadrado.cpp -o cuadrado.o
+ 
+g++  -fPIC -c elipse.cpp -o elipse.o
+ 
+g++  -shared rectangulo.o cuadrado.o elipse.o -o libfiguras.dll
+g++  main.o -o prog -L. -lfiguras -Wl,-rpath=.
+make.exe: Leaving directory 'c:/Users/laloc/Downloads/tarea4pbn'
+ 

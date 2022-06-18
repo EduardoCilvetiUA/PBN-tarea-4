@@ -1,0 +1,392 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sat Jun 18 16:43:08 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'makefile', line 3)
+exe = prog
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/laloc/Downloads/tarea4pbn
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\laloc\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\laloc\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7e399fb3-abe4-4786-8bcf-6348dc6e28b8-sock
+# environment
+VSCODE_CWD = C:\Users\laloc\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\laloc\AppData\Local\Microsoft\WindowsApps;C:\Users\laloc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laloc\AppData\Roaming\npm;C:\MinGW\bin;
+# makefile (from 'makefile', line 2)
+flags = 
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\laloc
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7568_NLK 
+XEDYIDFSPCWSU
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-H61KKO2
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = laloc
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\laloc\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'makefile', line 4)
+lib = libfiguras.dll
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-H61KKO2
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-H61KKO2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'makefile', line 1)
+CC = g++
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := prog
+# environment
+CLASSPATH = .;C:\Program Files (x86)\Java\jre1.8.0_311\lib\ext\QTJava.zip
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\laloc\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\94928da9fbd846aafef21553ff6a4487-1.68.1-main-sock
+# environment
+QTJAVA = C:\Program Files (x86)\Java\jre1.8.0_311\lib\ext\QTJava.zip
+# environment
+HOMEPATH = \Users\laloc
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\laloc\AppData\Roaming
+# environment
+TEMP = C:\Users\laloc\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+ 
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e09
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 7568
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-H61KKO2
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=14/119=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\laloc\AppData\Roaming\npm (key C:/Users/laloc/AppData/Roaming/npm, mtime 1652202051): 2 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1635686280): 5 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1635663400): 32 files, no impossibilities.
+# . (key c:/Users/laloc/Downloads/tarea4pbn, mtime 1655584986): 17 files, no impossibilities.
+# C:\Users\laloc\AppData\Local\Microsoft\WindowsApps (key C:/Users/laloc/AppData/Local/Microsoft/WindowsApps, mtime 1653596255): 26 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1638758528): 5 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1650406329): 8 files, no impossibilities.
+# C:\Windows\S 
+ystem32\OpenSSH\: could not be stat'd.
+# C:\Users\laloc\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/laloc/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655395744): 4 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1652721223): 8 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1635686455): 10 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1655439909): 115 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655439910): 174 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1652202055): 13 files, no impossibilities.
+# C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1652719349): 175 files, no impossibilities.
+# C:\Program Files (x86)\QuickTime\QTSystem\ (key C:/Program Files (x86)/QuickTime/QTSystem/, mtime 1637953395): 65 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1655508801): 3019 files, no impossibilities.
+
+# 3678 files, no impossibilities in 17 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+cuadrado.o: cuadrado.cpp cuadrado.h rectangulo.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 25):
+	$(CC) $(flags) -fPIC -c cuadrado.cpp -o cuadrado.o
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+libfiguras.dll: rectangulo.o cuadrado.o elipse.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 17):
+	$(CC) $(flags) -shared rectangulo.o cuadrado.o elipse.o -o $(lib)
+
+# Not a target:
+elipse.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rectangulo.o: rectangulo.cpp rectangulo.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 22):
+	$(CC) $(flags) -fPIC -c rectangulo.cpp -o rectangulo.o
+
+# Not a target:
+elipse.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a targ 
+et:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 09:00:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+prog: main.o libfiguras.dll
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	$(CC) $(flags) main.o -o $(exe) -L. -lfiguras -Wl,-rpath=.
+
+# Not a target:
+cuadrado.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+cuadrado.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: prog
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 34):
+	.\$(exe)
+
+elipse.o: elipse.cpp elipse.h rectangulo.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 28):
+	$(CC) $(flags) -fPIC -c elipse.cpp -o elipse.o
+
+# Not a target:
+rectangulo.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+rectangulo.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main.o: main.cpp rectangulo.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 31):
+	$(CC) $(flags) -c main.cpp -o main.o
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 37):
+	del *.o $(exe).exe *.dll
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=2/50=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3641 / storage = 55431 B / avg = 15 B
+# current buf: size = 8174 B / used = 6429 B / count = 382 / avg = 16 B
+# other used: total = 47257 B / count = 3259 / avg = 14 B
+# other free: total = 42 B / max = 12 B / min = 4 B / avg = 7 B
+
+# strcache performance: lookups = 3732 / hit rate  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+= 2%
+# hash-table stats:
+# Load=3641/8192=44%, Rehash=0, Collisions=1321/3732=35%
+# Finished Make data base on Sat Jun 18 16:43:08 2022
+
+ 
